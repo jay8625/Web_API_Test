@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Web_API_Test.Data;
+using Web_API_Test.DAL;
+using Web_API_Test.DAL.Data;
 using Web_API_Test.Service.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);

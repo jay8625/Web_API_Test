@@ -48,7 +48,7 @@ namespace Web_API_Test.API.Controllers
             try
             {
                 var result = await _authentication.Register(model);
-                return Ok(result);
+                return Ok("User Registered Sucessfully.");
             }
             catch (StatusException ex)
             {
